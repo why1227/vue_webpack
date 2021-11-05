@@ -28,7 +28,7 @@ function info(target){
 }
 
 // 定义一个类
-// @info
-// class Person{}
+@info
+class Person{}
 
-// console.log(Pers
+console.log(Person.info);
