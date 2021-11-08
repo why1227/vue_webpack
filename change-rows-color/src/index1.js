@@ -6,6 +6,9 @@ import $ from 'jquery';
 import './css/index.css';
 import './css/index.less';
 
+// 导入src/js/test/info.js
+import './js/test/info.js';
+
 // 2.定义JQUery的入口函数
 $(function () {
     // 3.实现奇偶行变色
@@ -20,15 +23,15 @@ $(function () {
 import logo from './images/apple1.png';
 console.log(logo);
 // 2.给img标签的src动态赋值
-$('.box').attr('src',logo)
+$('.box').attr('src', logo)
 
 // 定义装饰器函数
-function info(target){
+function info(target) {
     target.info = 'Person info.'
 }
 
 // 定义一个类
 @info
-class Person{}
+class Person {}
 
 console.log(Person.info);

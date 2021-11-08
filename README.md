@@ -17,3 +17,5 @@ change-rows-color：初始化隔行变色案例
         npm i less-loader@10.0.1 less@4.1.1 -D
         npm i url-loader@4.1.1 file-loader@6.2.0 -D
         npm i babel-loader@8.2.2 @babel/core@7.14.6 @babel/plugin-proposal-decorators@7.14.5 -D
+        npm install clean-webpack-plugin@3.0.0 -D
+        (npm install --save-dev clean-webpack-plugin)
